@@ -16,9 +16,11 @@ Snyty is a native iOS application designed to track, calculate, and optimize sle
 ## 📱 Previews
 
 <p align="center">
-  <img src="" width="250" />
-  <img src="" width="250" />
-  <img src="" width="250" />
+  <img src="https://github.com/user-attachments/assets/4567ad98-f933-46b9-a80a-d70d56b4cfcc" width="250" />
+  <img src="https://github.com/user-attachments/assets/4d0cae0c-11d2-41bf-bc78-977b6c7327a7" width="250" />
+  <img src="https://github.com/user-attachments/assets/1affb0de-bf55-4a89-950d-1fa63e9e084f" width="250" />
+  <img src="https://github.com/user-attachments/assets/1a34505d-13f1-4fdc-812a-685ef545552d" width="250" />
+  <img src="https://github.com/user-attachments/assets/67f91a0c-f7e8-4f89-b839-b0f328a9f1ec" width="250" />
 </p>
 
 ---
