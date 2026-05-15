@@ -1,0 +1,2040 @@
+{
+  "sourceLanguage" : "uk",
+  "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
+    "- циклів" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "- cycles"
+          }
+        }
+      }
+    },
+    "-- хв" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-- min"
+          }
+        }
+      }
+    },
+    ":" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ":"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@  •  %@" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@  •  %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@ hours_key сну" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ hours of sleep"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ год сну"
+          }
+        }
+      }
+    },
+    "%lld cycles_key" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cycle"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cycles"
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цилки"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld циклів"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цикл"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цикли"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld год" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hours"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld год"
+          }
+        }
+      }
+    },
+    "%lld годин" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld години"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld годин"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld година"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld годин"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld хв" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mins"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld хв"
+          }
+        }
+      }
+    },
+    "%lld хвилин" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld minute"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld minutes"
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld хвилини"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld хвилин"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld хвилина"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld хвилин"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld циклів" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cycle"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cycles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "< %lld циклів" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "< %lld cycle"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "< %lld cycles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "> %lld циклів" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "> %lld cycle"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "> %lld cycles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "~ %lld циклів" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "~ %lld cycle"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "~ %lld cycles"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "●" : {
+      "shouldTranslate" : false
+    },
+    "0 циклів" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0 cycles"
+          }
+        }
+      }
+    },
+    "05:00" : {
+      "shouldTranslate" : false
+    },
+    "13:00" : {
+      "shouldTranslate" : false
+    },
+    "20 хв" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20 mins"
+          }
+        }
+      }
+    },
+    "20 хвилин" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20 minutes"
+          }
+        }
+      }
+    },
+    "90 хв" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "90 mins"
+          }
+        }
+      }
+    },
+    "90 хвилин" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "90 minutes"
+          }
+        }
+      }
+    },
+    "alarmID" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alarmID"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Ascent" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascent"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сходження"
+          }
+        }
+      }
+    },
+    "Cadence" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cadence"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Такт"
+          }
+        }
+      }
+    },
+    "Clarity" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clarity"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ясність"
+          }
+        }
+      }
+    },
+    "Enchant" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enchant"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чари"
+          }
+        }
+      }
+    },
+    "Expanse" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expanse"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розширення"
+          }
+        }
+      }
+    },
+    "First" : {
+      "shouldTranslate" : false
+    },
+    "Genesis" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genesis"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Творення"
+          }
+        }
+      }
+    },
+    "hours_key" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hours"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "годин"
+          }
+        }
+      }
+    },
+    "Idle" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idle"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Безтурботність"
+          }
+        }
+      }
+    },
+    "Launch" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запуск"
+          }
+        }
+      }
+    },
+    "Linger" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linger"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Байдикування"
+          }
+        }
+      }
+    },
+    "mins_key" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "minutes"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "хвилин"
+          }
+        }
+      }
+    },
+    "Mirage" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mirage"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Марево"
+          }
+        }
+      }
+    },
+    "Night Shift" : {
+      "comment" : "Навза поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Night Shift"
+          }
+        }
+      }
+    },
+    "Pendulum" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pendulum"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маятник"
+          }
+        }
+      }
+    },
+    "Resolve" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolve"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Намір"
+          }
+        }
+      }
+    },
+    "Snyty v1.0.0" : {
+      "shouldTranslate" : false
+    },
+    "Standard" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стандартний"
+          }
+        }
+      }
+    },
+    "Stop" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Stop an alert" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop an alert"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Tidings" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidings"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звістка"
+          }
+        }
+      }
+    },
+    "Vigor" : {
+      "comment" : "Назва звуку будильника",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vigor"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жвавість"
+          }
+        }
+      }
+    },
+    "Аналіз сну" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep analysis"
+          }
+        }
+      }
+    },
+    "Бадьорих снів" : {
+      "comment" : "Заголовок на вкладці зі швидким сном, побажання",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep well"
+          }
+        }
+      }
+    },
+    "Будильник" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarm"
+          }
+        }
+      }
+    },
+    "Будильники" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarms"
+          }
+        }
+      }
+    },
+    "Будьте обережними зі зміною цього значення!\nЗазвичай повний цикл сну триває близько 90 хвилин. Цього часу достатньо, щоб організм послідовно пройшов усі стадії: від легкого сну до глибокого відновлення тканин та фази сновидінь (REM), яка відповідає за обробку інформації.\nКорегуйте цей параметр лише за умови, що ви точно знаєте тривалість своїх циклів (наприклад, на основі даних трекерів), оскільки помилка в розрахунках навіть у 5–10 хвилин може призвести до пробудження посеред глибокої фази, що спричинить відчуття сильної втоми протягом дня." : {
+      "comment" : "Попередження до параметру налаштувань",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be careful changing this value!\\nUsually, a full sleep cycle lasts about 90 minutes. This time is enough for the body to sequentially pass through all stages: from light sleep to deep tissue recovery and the REM phase, which is responsible for processing information.\\nAdjust this parameter only if you know the exact duration of your cycles (for example, based on tracker data), since a calculation error of even 5–10 minutes can lead to waking up in the middle of a deep phase, which will cause a feeling of severe fatigue throughout the day."
+          }
+        }
+      }
+    },
+    "Ваш провідник у світ глибоких снів та бадорих ранків" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your guide to the world of deep sleep and refreshed mornings"
+          }
+        }
+      }
+    },
+    "Ваш хронотип" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your chronotype"
+          }
+        }
+      }
+    },
+    "Ваші будильники з’являться тут, щойно ви оберете ідеальний час для сну." : {
+      "comment" : "Placeholder у вкладці з будильниками, коли жодного будильника не заведено (коментар)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your alarms will appear here once you choose the perfect bedtime."
+          }
+        }
+      }
+    },
+    "Вдих на 4 рахунки, затримка на 7, видих на 8. Ця вправа миттєво заспокоює серцебиття." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhale for 4 counts, hold for 7, exhale for 8. This exercise instantly calms your heartbeat."
+          }
+        }
+      }
+    },
+    "Видалити" : {
+      "comment" : "Назва дії кнопки (видалити будильник, у розділі із заведеними будильниками)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "Відкласти" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snooze"
+          }
+        }
+      }
+    },
+    "Відмінити" : {
+      "comment" : "Назва дії кнопки, відображається у вкладці зі швидким сном, мається на увазі, що по натиску на цю кнопку — будильник буде видалено і нас не стануть будити",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Вікно сну" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep window"
+          }
+        }
+      }
+    },
+    "Вітаємо!" : {
+      "comment" : "Привітання",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome!"
+          }
+        }
+      }
+    },
+    "Вкажіть час вашого пробудження, щоб ми налаштували графік циркадних ритмів саме під вас. Це допоможе програмі підказувати ідеальні моменти для активності та відпочинку, спираючись на ваш персональний біологічний годинник." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Specify your wake-up time so we can adjust the circadian rhythm schedule just for you. This will help the app suggest the ideal moments for activity and rest based on your personal biological clock."
+          }
+        }
+      }
+    },
+    "Все готово!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All set!"
+          }
+        }
+      }
+    },
+    "Головний секрет бадьорості — прокинутися в правильний момент. Snyty розраховує ідеальний графік відпочинку саме для вас. Він підкаже, о котрій лягти спати або завести будильник, щоб оминути глибокий сон і легко розпочати новий день." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The main secret of feeling refreshed is waking up at the right moment. Snyty calculates the ideal rest schedule just for you. It will tell you when to go to bed or set an alarm to avoid deep sleep and start your day easily."
+          }
+        }
+      }
+    },
+    "Голуб" : {
+      "comment" : "Хронотип",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dove"
+          }
+        }
+      }
+    },
+    "Гормональний баланс" : {
+      "comment" : "Заголовок до графіку цикрадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hormonal balance"
+          }
+        }
+      }
+    },
+    "Далі" : {
+      "comment" : "Кнопка для переходу на наступний крок онбордингу",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        }
+      }
+    },
+    "Дихання 4-7-8" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4-7-8 Breathing"
+          }
+        }
+      }
+    },
+    "Для денного сну використовуйте маску. Навіть через закриті повіки мозок реагує на світло, що заважає якісному відпочинку." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use a sleep mask for daytime naps. Even through closed eyelids, the brain reacts to light, which prevents quality rest."
+          }
+        }
+      }
+    },
+    "Добрий вечір!" : {
+      "comment" : "Вітання",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good evening!"
+          }
+        }
+      }
+    },
+    "Добрий день!" : {
+      "comment" : "Вітання",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good afternoon!"
+          }
+        }
+      }
+    },
+    "Доброго ранку!" : {
+      "comment" : "Вітання",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good morning!"
+          }
+        }
+      }
+    },
+    "Доброї ночі!" : {
+      "comment" : "Вітання",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good night!"
+          }
+        }
+      }
+    },
+    "Дозволити відкладання" : {
+      "comment" : "Назва налаштування",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow snooze"
+          }
+        }
+      }
+    },
+    "Дозвольте нам допомогти" : {
+      "comment" : "Назва меню онбордингу, де просимо користувача надати дозволи",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let us help"
+          }
+        }
+      }
+    },
+    "Доступ до будильників вимкнено" : {
+      "comment" : "Відображається у меню будильників, коли заборонений доступ застосунку",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Access to alarms is disabled"
+          }
+        }
+      }
+    },
+    "Ефект бадьорості" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energizing effect"
+          }
+        }
+      }
+    },
+    "Жайворонок" : {
+      "comment" : "Хронотип",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lark"
+          }
+        }
+      }
+    },
+    "Зазвичай 15 хв" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typically 15 min"
+          }
+        }
+      }
+    },
+    "Зазвичай 90 хв" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typically 90 min"
+          }
+        }
+      }
+    },
+    "Зазвичай людям потрібно 15 хвилин на те, щою заснути, проте, якщо у вас це зазвичай займає інший час – ви можете визначити його та ми врахуємо нове значення під час наступних розрахунків." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usually, people need 15 minutes to fall asleep, however, if it typically takes you a different amount of time, you can specify it and we will take the new value into account during future calculations."
+          }
+        }
+      }
+    },
+    "Зараз" : {
+      "shouldTranslate" : false
+    },
+    "Засинати о" : {
+      "comment" : "У вкладці з розрахованими пропозиціями, коли краще прокинутися, відображається як підпис для часу, на який проводилися розрахунки (максимально коротко)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fall asleep at"
+          }
+        }
+      }
+    },
+    "Звук" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound"
+          }
+        }
+      }
+    },
+    "Звук будильника" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarm sound"
+          }
+        }
+      }
+    },
+    "Зміна цих налаштувань також вплине на всі вже заведені будильники." : {
+      "comment" : "Опис (попередження) до розділу налаштувань",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changing these settings will also affect all currently set alarms."
+          }
+        }
+      }
+    },
+    "Змінити" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        }
+      }
+    },
+    "ЗРОБЛЕНО ДЛЯ ВАШОГО СНУ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MADE FOR YOUR SLEEP"
+          }
+        }
+      }
+    },
+    "Ідеальний сон" : {
+      "comment" : "Назва меню онбордингу, де розповідається про функціонал застосунку",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfect sleep"
+          }
+        }
+      }
+    },
+    "Інший" : {
+      "comment" : "Хронотип",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other"
+          }
+        }
+      }
+    },
+    "Існує ідеальний проміжок між 22:00 та 23:00, коли рівень кортизолу падає, а мелатонін зростає. Спробуйте встигнути в цей «потік»." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There is an ideal window between 22:00 and 23:00 when cortisol levels drop and melatonin rises. Try to catch this \"flow\"."
+          }
+        }
+      }
+    },
+    "Користь білого шуму" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benefits of white noise"
+          }
+        }
+      }
+    },
+    "Короткий сон перезавантажує мозок. Головне — встати до початку фази глибокого сну." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A short nap reboots the brain. The key is to wake up before the deep sleep phase begins."
+          }
+        }
+      }
+    },
+    "Кофеїновий сон" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coffee nap"
+          }
+        }
+      }
+    },
+    "Легке відновлення" : {
+      "comment" : "Опис до одного із варіантів швидкого сну,  що триває 20 хвилин",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light recovery"
+          }
+        }
+      }
+    },
+    "Магія темряви" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magic of darkness"
+          }
+        }
+      }
+    },
+    "Менша кількість світла сприяє виробленню мелатоніну. Вимкніть яскраві лампи за годину до сну." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Less light promotes melatonin production. Turn off bright lights an hour before bed."
+          }
+        }
+      }
+    },
+    "менше хвилини" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "less than a minute"
+          }
+        }
+      }
+    },
+    "Метод «Вивантаження»" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The \"Brain Dump\" method"
+          }
+        }
+      }
+    },
+    "Ми врахували %@ на засинання.\nВаш будильник пролунає о %@" : {
+      "comment" : "Коментар у вкладці зі швидким сном",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We factored in %1$@ to fall asleep.\nYour alarm will sound at %2$@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ми врахували %1$@ на засинання.\nВаш будильник пролунає о %2$@"
+          }
+        }
+      }
+    },
+    "Ми врахували %@ на засинання. Цей параметр можна змінити в налаштуваннях." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We factored in %@ to fall asleep. This can be changed in Settings."
+          }
+        }
+      }
+    },
+    "Монотонні звуки дощу або вентилятора маскують різкі нічні шуми, допомагаючи мозку залишатися в стані спокою." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monotonous sounds of rain or a fan mask sharp nighttime noises, helping the brain stay at rest."
+          }
+        }
+      }
+    },
+    "На добраніч!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good night!"
+          }
+        }
+      }
+    },
+    "На скільки відкладати" : {
+      "comment" : "Назва налаштування, мається на увазі, яка тривалість відкладання, якщо воно дозволене",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snooze duration"
+          }
+        }
+      }
+    },
+    "На сон приблизно:" : {
+      "comment" : "Залишилося часу та циклів, максимально коротко",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep time approx:"
+          }
+        }
+      }
+    },
+    "Нагадування про сон" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep reminder"
+          }
+        }
+      }
+    },
+    "Надати" : {
+      "comment" : "Підпис кнопки, мається на увазі «надати дозвіл застосунку»",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grant"
+          }
+        }
+      }
+    },
+    "Назад" : {
+      "comment" : "Кнопка для переходу на попередній крок онбордингу",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        }
+      }
+    },
+    "Назва" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "Найкращий варіант" : {
+      "comment" : "Заголовок до пропозицій лягти спати/завести будильник, мається на увазі, що ці розрахунки є найбільш оптимальними",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best option"
+          }
+        }
+      }
+    },
+    "Налаштування" : {
+      "comment" : "Назва вкладки",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "Налаштуйте автоматичне увімкнення режиму «Сон» на iPhone. Навіть світло від екрана сповіщення може частково вас розбудити." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up your iPhone to automatically turn on Sleep focus. Even the light from a notification screen can partially wake you up."
+          }
+        }
+      }
+    },
+    "Наступний будильник" : {
+      "comment" : "Мається на увазі наступний будильник, що пролунає",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next alarm"
+          }
+        }
+      }
+    },
+    "О котрій ви зазвичай прокидаєтеся?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What time do you usually wake up?"
+          }
+        }
+      }
+    },
+    "Обережно з цукром" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Careful with sugar"
+          }
+        }
+      }
+    },
+    "Огляд" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dashboard"
+          }
+        }
+      }
+    },
+    "Однакова послідовність дій щовечора (наприклад, душ — книга — ліжко) створює в мозку стійкий рефлекс засинання." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The same sequence of actions every evening (e.g., shower — book — bed) creates a strong sleep reflex in the brain."
+          }
+        }
+      }
+    },
+    "Оптимальний час для глибокого відновлення та сну" : {
+      "comment" : "Опис до циркадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optimal time for deep recovery and sleep"
+          }
+        }
+      }
+    },
+    "Організм прокидається, рівень кортизолу зростає" : {
+      "comment" : "Опис до циркадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The body wakes up, cortisol level rises"
+          }
+        }
+      }
+    },
+    "Перейти в налаштування" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to Settings"
+          }
+        }
+      }
+    },
+    "Підтримуйте природний ритм" : {
+      "comment" : "Опис до циркадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maintain a natural rhythm"
+          }
+        }
+      }
+    },
+    "Пік продуктивності та фокусу, найкращий час для складних завдань" : {
+      "comment" : "Опис до циркадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peak productivity and focus, the best time for complex tasks"
+          }
+        }
+      }
+    },
+    "Повне відновлення" : {
+      "comment" : "Заголовок до пропозицій лягти спати/завести будильник, мається на увазі, що за цих розрахунків ми проспимо найдовший рекомендований час, щоб відновити всі ресурси ",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full recovery"
+          }
+        }
+      }
+    },
+    "Повний цикл" : {
+      "comment" : "Опис до одного із варіантів швидкого сну,  що триває один цикл",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full cycle"
+          }
+        }
+      }
+    },
+    "Правило 20 хвилин" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The 20-minute rule"
+          }
+        }
+      }
+    },
+    "Природний спад енергії, добре підходить для рутинної роботи" : {
+      "comment" : "Опис до циркадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natural energy dip, well-suited for routine work"
+          }
+        }
+      }
+    },
+    "пробуйте по черзі напружувати та розслабляти пальці ніг, ікри, стегна. Це техніка прогресивної релаксації, що прискорює сон." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try alternately tensing and relaxing your toes, calves, and thighs. This is a progressive relaxation technique that speeds up falling asleep."
+          }
+        }
+      }
+    },
+    "Прокинутися о" : {
+      "comment" : "У вкладці з розрахованими пропозиціями, коли краще лягти спати, відображається як підпис для часу, на який проводилися розрахунки (максимально коротко)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wake up at"
+          }
+        }
+      }
+    },
+    "Режим «Не турбувати»" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do Not Disturb mode"
+          }
+        }
+      }
+    },
+    "Ритуали сну" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep rituals"
+          }
+        }
+      }
+    },
+    "Рівень" : {
+      "comment" : "Мається на увазі рівень гормонів",
+      "shouldTranslate" : false
+    },
+    "Розпочати" : {
+      "comment" : "Кнопка, що означає розпочати онбординг",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get started"
+          }
+        }
+      }
+    },
+    "Розрахувати" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculate"
+          }
+        }
+      }
+    },
+    "Розрахунки сну" : {
+      "comment" : "Назва розділу налаштувань",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep calculations"
+          }
+        }
+      }
+    },
+    "Розслаблення м'язів" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muscle relaxation"
+          }
+        }
+      }
+    },
+    "Саме під час REM-фази мозок обробляє емоції та інформацію. Короткий сон (Power Nap) якраз допомагає «перезавантажитися»." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is during the REM phase that the brain processes emotions and information. A short nap (Power Nap) helps you \"reboot\"."
+          }
+        }
+      }
+    },
+    "Синє світло екрана обманює мозок. Спробуйте відкласти гаджет за 30 хвилин до сну." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The blue light from screens tricks the brain. Try to put your device away 30 minutes before sleep."
+          }
+        }
+      }
+    },
+    "Скоро..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coming soon..."
+          }
+        }
+      }
+    },
+    "Сова" : {
+      "comment" : "Хронотип",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owl"
+          }
+        }
+      }
+    },
+    "Солодке на ніч дає різкий прилив енергії, що змушує мозок працювати активніше замість того, щоб готуватися до спокою." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweets at night give a sharp surge of energy, forcing the brain to work more actively instead of preparing for rest."
+          }
+        }
+      }
+    },
+    "Солодких снів і найбадьоріших ранків. Snyty потурбується про ваш відпочинок" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweet dreams and the most refreshed mornings. Snyty will take care of your rest."
+          }
+        }
+      }
+    },
+    "Сон" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep"
+          }
+        }
+      }
+    },
+    "Сповіщення" : {
+      "comment" : "Сповіщення застосунку",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "Темні окуляри" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark glasses"
+          }
+        }
+      }
+    },
+    "Тип" : {
+      "shouldTranslate" : false
+    },
+    "Тривалість циклу" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cycle duration"
+          }
+        }
+      }
+    },
+    "Тут поки що тихо..." : {
+      "comment" : "Placeholder у вкладці з будильниками, коли жодного будильника не заведено (заголовок)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It's quiet here for now..."
+          }
+        }
+      }
+    },
+    "Фаза швидкого сну" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "REM sleep phase"
+          }
+        }
+      }
+    },
+    "хвилин" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "minutes"
+          }
+        }
+      }
+    },
+    "хвилини" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "minutes"
+          }
+        }
+      }
+    },
+    "Хронотип" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chronotype"
+          }
+        }
+      }
+    },
+    "Цифровий детокс" : {
+      "comment" : "Назва поради",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digital detox"
+          }
+        }
+      }
+    },
+    "Ці параметри будуть враховані під час наступних розрахунків." : {
+      "comment" : "Опис (попередження) до розділу налаштувань",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These parameters will be taken into account during future calculations."
+          }
+        }
+      }
+    },
+    "Цього разу мені потрібно на засинаня:" : {
+      "comment" : "Питання при розрахунку будильників",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time needed to fall asleep this time:"
+          }
+        }
+      }
+    },
+    "Час" : {
+      "shouldTranslate" : false
+    },
+    "Час бадьорості!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wake up time!"
+          }
+        }
+      }
+    },
+    "Час лягати спати" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedtime"
+          }
+        }
+      }
+    },
+    "Час на засинання" : {
+      "comment" : "Назва налаштування",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time to fall asleep"
+          }
+        }
+      }
+    },
+    "Час сповільнюватися, організм готується до сну" : {
+      "comment" : "Опис до циркадних ритмів",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time to slow down, the body is preparing for sleep"
+          }
+        }
+      }
+    },
+    "Швидкий сон" : {
+      "comment" : "Назва розділу",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power nap"
+          }
+        }
+      }
+    },
+    "Щоб будити вас вчасно" : {
+      "comment" : "Коли потрібно надати дозвіл для будильників - пояснює нащо",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To wake you up on time"
+          }
+        }
+      }
+    },
+    "Щоб ми могли вчасно вас розбудити, дозвольте застосунку керувати будильниками в Налаштуваннях." : {
+      "comment" : "Відображається у меню будильників, коли заборонений доступ застосунку",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So we can wake you up on time, please allow the app to manage alarms in Settings."
+          }
+        }
+      }
+    },
+    "Щоб прокинутись бадьорим, краще лягти спати о:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To wake up refreshed, it's best to go to bed at:"
+          }
+        }
+      }
+    },
+    "Щоб розбудити вас у найкращий для цього час чи нагадати, що вже час йти спати, нам потрібні наступні дозволи:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To wake you up at the best time or remind you it's bedtime, we need the following permissions:"
+          }
+        }
+      }
+    },
+    "Я лягаю спати зараз" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm going to sleep now"
+          }
+        }
+      }
+    },
+    "Я хочу прокинутися о" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I want to wake up at"
+          }
+        }
+      }
+    },
+    "Якщо ви ляжете зараз, краще прокинутися о:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you go to bed now, it's best to wake up at:"
+          }
+        }
+      }
+    },
+    "Якщо ви пʼєте каву, то зробіть це безпосередньо перед 20-хвилинним сном. Кофеїн подіє якраз тоді, коли ви прокинетеся, давши подвійний заряд енергії." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you drink coffee, do it right before a 20-minute nap. The caffeine will kick in just as you wake up, giving you a double energy boost."
+          }
+        }
+      }
+    },
+    "Якщо ви спите вдень, робіть це до 15:00, щоб не зіпсувати свій основний нічний графік." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you nap during the day, do it before 3:00 PM so you don't ruin your main nighttime sleep schedule."
+          }
+        }
+      }
+    },
+    "Якщо не можете відкласти телефон, увімкніть «теплий» режим екрана. Це менше пригнічує вироблення мелатоніну." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you can't put your phone away, turn on the \"warm\" screen mode. This suppresses melatonin production less."
+          }
+        }
+      }
+    },
+    "Якщо тривожні думки не дають заснути, випишіть список справ на завтра на папір. Це дозволить мозку «відпустити» контроль." : {
+      "comment" : "Порада",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If anxious thoughts keep you awake, write a to-do list for tomorrow on paper. This will allow your brain to \"let go\" of control."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}
