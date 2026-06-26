@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum HomePageSection: TabItem {
+enum HomePageSection: @MainActor TabItem {
     case dashboard, sleep
     
     var title: LocalizedStringResource? {
@@ -15,7 +15,7 @@ enum HomePageSection: TabItem {
     var icon: String? { return nil }
 }
 
-enum CalculationMode: TabItem {
+enum CalculationMode: @MainActor TabItem {
     case targetWakeUp, sleepNow
     
     var title: LocalizedStringResource? {

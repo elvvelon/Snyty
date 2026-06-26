@@ -169,4 +169,13 @@ extension View {
             .foregroundStyle(.appBackground)
             .padding(padding)
     }
+    
+    
+    func navigationMark() -> some View {
+        self.frame(maxWidth: .infinity)
+            .overlay(alignment: .trailing) {
+            Image(systemName: "chevron.forward")
+                    .font(.system(size: 14))
+        }
+    }
 }

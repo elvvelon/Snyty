@@ -1,7 +1,7 @@
 import SwiftUI
 import AlarmKit
 
-enum AppRoute: TabItem {
+enum AppRoute: @MainActor TabItem {
     case mainPage, alarms, settings
     
     var title: LocalizedStringResource? { return nil }

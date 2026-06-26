@@ -1,7 +1,7 @@
 import SwiftUI
 import Charts
 
-struct BiorhythmView: View {
+struct BiorhythmWidgetView: View {
     @State private var vm = BiorhythmViewModel()
     @State private var appearProgress = 0.0
     
@@ -9,7 +9,7 @@ struct BiorhythmView: View {
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Гормональний баланс").subtitle2()
-                Text(vm.descrintion).foregroundStyle(.textSecondary)
+                Text(vm.descrintion).caption2()
             }
             
             Chart {
@@ -103,7 +103,7 @@ struct BiorhythmView: View {
     @Previewable @State var animationID = UUID()
     
     VStack {
-        BiorhythmView()
+        BiorhythmWidgetView()
             .padding()
             .id(animationID)
         Button {

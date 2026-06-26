@@ -23,7 +23,11 @@ struct AlarmsListView: View {
                 )
                 
             case .empty:
-                showPlaceholder(imageName: "clock", title: "Тут поки що тихо...", description: "Ваші будильники з’являться тут, щойно ви оберете ідеальний час для сну.")
+                showPlaceholder(
+                    imageName: "clock",
+                    title: "Тут поки що тихо...",
+                    description: "Ваші будильники з’являться тут, щойно ви оберете ідеальний час для сну."
+                )
                 
             case .represent:
                 TimelineView(.everyMinute) { _ in
@@ -70,7 +74,7 @@ struct AlarmsListView: View {
             
             Text(title).title2()
             
-            // MARK: -
+            // MARK: - Move to settings when no permissions granted
             Text(description).caption1()
         }
         .containerRelativeFrame(.vertical, count: 4, span: 3, spacing: 10.0)
@@ -84,7 +88,7 @@ enum AlarmsState {
 }
 
 struct ScheduledAlarmView: View {
-    @State var alarm: CycleAlarm
+    let alarm: CycleAlarm
     @State private var internalPause: Bool
     @State private var isPresented = false
     
@@ -108,7 +112,6 @@ struct ScheduledAlarmView: View {
             .sheet(isPresented: $isPresented) {
                 NavigationStack {
                     AlarmEditSheet(alarm) { alarm in
-                        internalPause = true
                         AlarmScheduleProvider.shared.updateAlarm(config: alarm)
                     } destruct: { id in
                         Task { withAnimation(.bouncy(duration: 0.3)) {
@@ -123,9 +126,17 @@ struct ScheduledAlarmView: View {
         }
         .card()
         .animation(.smooth(duration: 0.3), value: alarm.isPaused)
-        .onChange(of: internalPause) {
-            alarm.isPaused = !internalPause
-            AlarmScheduleProvider.shared.toggleAlarm(alarm)
+        .onChange(of: internalPause) { _, newVal in
+            if alarm.isPaused != !newVal {
+                var updatedAlarm = alarm
+                updatedAlarm.isPaused = !newVal
+                AlarmScheduleProvider.shared.toggleAlarm(updatedAlarm)
+            }
+        }
+        .onChange(of: alarm.isPaused) { _, isPaused in
+            if internalPause != !isPaused {
+                internalPause = !isPaused
+            }
         }
         .onTapGesture {
             isPresented.toggle()

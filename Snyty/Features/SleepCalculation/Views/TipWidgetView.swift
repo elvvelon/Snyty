@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TipView: View {
+struct TipWidgetView: View {
     let tip: SleepTip
     
     var body: some View {
@@ -13,7 +13,7 @@ struct TipView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             
             Text(tip.description)
-                .foregroundStyle(.textSecondary)
+                .description3()
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .card() {
@@ -45,7 +45,7 @@ struct TipView: View {
     ScrollView {
         VStack(spacing: 16) {
             ForEach(SleepTip.data) { tip in
-                TipView(tip: tip)
+                TipWidgetView(tip: tip)
             }
         }
         .padding()

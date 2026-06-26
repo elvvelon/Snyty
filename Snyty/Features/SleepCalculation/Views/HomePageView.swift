@@ -35,30 +35,33 @@ struct HomePageView: View {
     
     var dashboardSection: some View {
         VStack(spacing: 28) {
-            TipView(tip: tip).onAppear { tip = SleepTip.randomTip }
-            BiorhythmView().card()
+            TipWidgetView(tip: tip).onAppear { tip = SleepTip.randomTip }
+            BiorhythmWidgetView().card()
             
-            if let nextAlarm = AlarmScheduleProvider.shared.nextAlarm {
-                TimelineView(.everyMinute) { _ in
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Наступний будильник")
-                            .subtitle2()
-                        Text(nextAlarm.scheduledTimeFormated)
-                            .timeStyle(fontSize: 40)
-                        Text("\(nextAlarm.cyclesLeftFormated)  •  \(nextAlarm.timeLeftFormated)")
-                            .description3()
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .card()
-                }
-            }
+//            if let nextAlarm = AlarmScheduleProvider.shared.nextAlarm {
+//                TimelineView(.everyMinute) { _ in
+//                    VStack(alignment: .leading, spacing: 12) {
+//                        Text("Наступний будильник")
+//                            .subtitle2()
+//                        Text(nextAlarm.scheduledTimeFormated)
+//                            .timeStyle(fontSize: 40)
+//                        Text("\(nextAlarm.cyclesLeftFormated)  •  \(nextAlarm.timeLeftFormated)")
+//                            .description3()
+//                    }
+//                    .frame(maxWidth: .infinity, alignment: .leading)
+//                    .card()
+//                }
+//            }
             
             section("Аналіз сну") {
-                Text("Скоро...")
-                    .title2()
-                    .padding(.vertical, 60)
-                    .frame(maxWidth: .infinity)
-                    .card()
+                SnytysiaWidgetView()
+                NavigationLink {
+                    SleepRecordsView()
+                } label: {
+                    Text("Усі записи")
+                    Image(systemName: "chevron.forward")
+                }
+                .foregroundStyle(.appPrimary)
             }
         }
     }

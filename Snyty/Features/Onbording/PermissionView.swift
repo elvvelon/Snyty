@@ -38,8 +38,10 @@ struct PermissionView: View {
                     case .notDetermined:
                         Button {
                             UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, _ in
-                                withAnimation {
-                                    notificationsState = success ? .authorized : .denied
+                                Task { @MainActor in
+                                    withAnimation {
+                                        notificationsState = success ? .authorized : .denied
+                                    }
                                 }
                             }
                         } label: {

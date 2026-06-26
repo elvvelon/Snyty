@@ -12,32 +12,24 @@ struct TabPicker<T: TabItem>: View {
     var animation: Animation = .default
     
     @State private var width: CGFloat = .zero
-    @State private var x: CGFloat = 0
+    @State private var offset: CGSize = .zero
     @State private var isInteracting = false
     
-    private var scale: CGFloat {
-        if isInteracting {
-            return 1.1
-        }
-        return 1.0
-    }
+    private var scale: CGFloat { isInteracting ? 1.1 : 1.0 }
     
     var drag: some Gesture {
-        DragGesture(minimumDistance: 0, coordinateSpace: .local)
+        DragGesture(minimumDistance: 0, coordinateSpace: .global)
             .onChanged { val in
                 withAnimation(.bouncy) { isInteracting = true }
                 
-                let halfWidth = width / 2
-                let totalWidth = width * CGFloat(T.allCases.count)
-                
-                let loc = min(max(val.location.x - halfWidth, 0), totalWidth - width) / scale
-                
-                self.x = loc
+                let currentIndex = CGFloat(Array(T.allCases).firstIndex(of: selection) ?? 0)
+                let baseOffset = currentIndex * width
+                self.offset.width = baseOffset + val.translation.width
             }
             .onEnded { val in
                 withAnimation(.bouncy) { isInteracting = false }
                 
-                let rawIndex = Int(val.location.x / width)
+                let rawIndex = Int((self.offset.width + (width / 2)) / width)
                 let safeIndex = min(max(0, rawIndex), T.allCases.count - 1)
                 
                 let newSelection = Array(T.allCases)[safeIndex]
@@ -58,11 +50,11 @@ struct TabPicker<T: TabItem>: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .onAppear {
                         width = geometry.size.width / CGFloat(T.allCases.count)
-                        x = width * CGFloat((Array(T.allCases).firstIndex(of: selection) ?? 0))
+                        offset.width = width * CGFloat((Array(T.allCases).firstIndex(of: selection) ?? 0))
                     }
                     .onChange(of: geometry.size.width) {
                         width = geometry.size.width / CGFloat(T.allCases.count)
-                        x = width * CGFloat((Array(T.allCases).firstIndex(of: selection) ?? 0))
+                        offset.width = width * CGFloat((Array(T.allCases).firstIndex(of: selection) ?? 0))
                     }
             }
         )
@@ -73,9 +65,9 @@ struct TabPicker<T: TabItem>: View {
                     .fill(tinted ? .appPrimary : .appSecondary)
                     .stroke(tinted ? .appPrimary.mix(with: .white, by: 0.4) : Color.appSecondary.mix(with: .white, by: 0.1), lineWidth: 0.8)
                     .frame(width: width)
-                    .offset(x: x)
-                    .gesture(drag)
                     .scaleEffect(scale)
+                    .offset(x: offset.width)
+                    .gesture(drag)
                 
                 HStack {
                     ForEach(Array(T.allCases), id: \.self) { item in
@@ -87,8 +79,8 @@ struct TabPicker<T: TabItem>: View {
                 .mask(alignment: .leading) {
                     Rectangle()
                         .frame(width: width)
-                        .offset(x: x)
                         .scaleEffect(scale)
+                        .offset(x: offset.width)
                 }
             }
         }
@@ -96,11 +88,11 @@ struct TabPicker<T: TabItem>: View {
     
     private func setMode(_ target: T) {
         let index = Array(T.allCases).firstIndex(of: target) ?? 0
-        withAnimation(animation) {
-            selection = target
-            x = CGFloat(index) * width
+        withAnimation(.bouncy) { offset.width = CGFloat(index) * width }
+        if selection != target {
+            withAnimation(animation) { selection = target }
+            UIImpactFeedbackGenerator(style: .light).impactOccurred()
         }
-        UIImpactFeedbackGenerator(style: .light).impactOccurred()
     }
     
     @ViewBuilder
@@ -126,7 +118,7 @@ struct TabPicker<T: TabItem>: View {
     }
 }
 
-enum SomeCases: TabItem {
+enum SomeCases: @MainActor TabItem {
     case first, second, third, fourth
     
     var title: LocalizedStringResource? {

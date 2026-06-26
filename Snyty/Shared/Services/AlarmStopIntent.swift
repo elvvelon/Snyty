@@ -1,8 +1,8 @@
 import AppIntents
+import Snytysia
 
 struct AlarmStopIntent: LiveActivityIntent {
-    static var title: LocalizedStringResource = "Stop"
-    static var description = IntentDescription("Stop an alert")
+    static let title: LocalizedStringResource = "Stop"
     
     @Parameter(title: "alarmID")
     var alarmID: String
@@ -29,6 +29,8 @@ struct AlarmStopIntent: LiveActivityIntent {
             else {
                 alarmProvider.cancelAlarm(id: id)
             }
+            
+            _ = Snytysia.classifier.stopTracking()
         }
         
         return .result()
