@@ -43,13 +43,13 @@ jobs:
           SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
 
           MESSAGE=$(cat <<EOF
-          $STATUS | ${{ github.workflow }} #${{ github.run_number }}
-          ${{ github.event.commits[0].message }}
-          Commit: $SHORT_SHA ${{ github.ref_name }}
+          <b>$STATUS</b> | ${{ github.workflow }} #${{ github.run_number }}
+          ${{ github.event.head_commit.message }}
+          <a href="${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}">$SHORT_SHA</a> <code>${{ github.ref_name }}</code>
           EOF
           )
-          
+
           curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
             -d "chat_id=${TELEGRAM_TO}" \
             -d "text=${MESSAGE}" \
-            -d "parse_mode=Markdown"
+            -d "parse_mode=HTML"
