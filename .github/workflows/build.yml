@@ -30,4 +30,26 @@ jobs:
         run: bundle exec fastlane install_plugins
         
       - name: Run Fastlane Build Check and Tag
+        id: fastlane_step
         run: bundle exec fastlane build_and_tag
+
+      - name: Send Telegram Notification
+        if: always() && (steps.fastlane_step.outputs.release_status == 'success' || steps.fastlane_step.outputs.release_status == 'failed')
+        env:
+          TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          STATUS: ${{ steps.fastlane_step.outputs.release_status == 'success' && '✅ Success' || '❌ Failed' }}
+        run: |
+          SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
+
+          MESSAGE=$(cat <<EOF
+          $STATUS | ${{ github.workflow }} #${{ github.run_number }}
+          ${{ github.event.commits[0].message }}
+          Commit: $SHORT_SHA ${{ github.ref_name }}
+          EOF
+          )
+          
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_TO}" \
+            -d "text=${MESSAGE}" \
+            -d "parse_mode=Markdown"

@@ -5,8 +5,9 @@ platform :ios do
     is_releasable = analyze_commits(match: 'v*')
 
     if is_releasable
+      system("echo 'release_status=failed' >> $GITHUB_OUTPUT")
+      
       next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
-
       UI.message("Starting build for: #{next_version}")
 
       gym(
@@ -18,9 +19,11 @@ platform :ios do
 
       add_git_tag(tag: "v#{next_version}")
       push_git_tags
+      
+      system("echo 'release_status=success' >> $GITHUB_OUTPUT")
     else
-      UI.error("This build is not releasable")
+      UI.important("This build is not releasable")
+      system("echo 'release_status=not_releasable' >> $GITHUB_OUTPUT")
     end
-
   end
 end
