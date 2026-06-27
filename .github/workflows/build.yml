@@ -1,0 +1,33 @@
+name: Snyty Build and Tag
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test_build:
+    runs-on: macos-26
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+        
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.0'
+          bundler-cache: true
+            
+      - name: Install Fastlane Plugins
+        run: bundle exec fastlane install_plugins
+        
+      - name: Run Fastlane Build Check and Tag
+        run: bundle exec fastlane build_and_tag
